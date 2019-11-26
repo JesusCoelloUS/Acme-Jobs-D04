@@ -79,6 +79,16 @@
 	
 	<bean name="administratorAuthenticated" class="acme.framework.entities.Authenticated">
 		<property name="userAccount" ref="administratorUserAccount" />
+		<!-- <property name="threadsOwned">
+			<list>
+				
+			</list>
+		</property>
+		<property name="threadsInvolved">
+			<list>
+				
+			</list>
+		</property> -->
 	</bean>
 	
 </beans>
