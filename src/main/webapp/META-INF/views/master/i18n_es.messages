@@ -59,6 +59,7 @@ master.menu.authenticated.offers = Ofertas
 master.menu.authenticated.offer.list = Ver ofertas
 master.menu.authenticated.challenges = Desafíos
 master.menu.authenticated.challenge.list = Ver desafíos
+master.menu.authenticated.job.list = Ver empleos
 
 # master.menu.administrator ###################################################
 

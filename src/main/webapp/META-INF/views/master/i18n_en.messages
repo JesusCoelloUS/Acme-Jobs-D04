@@ -59,6 +59,7 @@ master.menu.authenticated.offers = Offers
 master.menu.authenticated.offer.list = List offers
 master.menu.authenticated.challenges = Challenges
 master.menu.authenticated.challenge.list = List challenges
+master.menu.authenticated.job.list = List jobs
 
 # master.menu.administrator ###################################################
 
