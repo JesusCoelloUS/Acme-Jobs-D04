@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import acme.entities.duties.Duty;
 import acme.entities.jobs.Job;
+import acme.framework.entities.Authenticated;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
@@ -21,4 +22,7 @@ public interface AuthenticatedDutyRepository extends AbstractRepository {
 
 	@Query("select d from Duty d where d.id=?1")
 	Duty findOneDutyById(int id);
+
+	@Query("select a from Authenticated a where a.id=?1")
+	Authenticated findOneAuthenticatedById(int id);
 }

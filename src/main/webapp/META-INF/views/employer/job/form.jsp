@@ -25,7 +25,6 @@
 	<acme:form-money code="employer.job.form.label.salary" path="salary"/>
 	<acme:form-url code="employer.job.form.label.moreInfo" path="moreInfo"/>
 	
+	<acme:button code="employer.job.form.button.duties" action="/acme-jobs/employer/duty/list?id=${id}"/>
   	<acme:form-return code="employer.job.form.button.return"/>
 </acme:form>
-
-<input type="button" value="<spring:message code="employer.job.form.button.duties"/>" onclick="javascript:window.location.replace('/acme-jobs/employer/duty/list?id=${id}')">

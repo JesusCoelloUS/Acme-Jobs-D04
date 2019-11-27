@@ -17,12 +17,15 @@ import acme.framework.entities.Authenticated;
 public class AuthenticatedDutyController extends AbstractController<Authenticated, Duty> {
 
 	@Autowired
-	private AuthenticatedDutyListService listService;
+	private AuthenticatedDutyListService	listService;
+	@Autowired
+	private AuthenticatedDutyShowService	showService;
 
 
 	@PostConstruct
 	private void initialize() {
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
+		super.addBasicCommand(BasicCommand.SHOW, this.showService);
 	}
 
 }
