@@ -82,6 +82,12 @@ master.menu.provider.request.create = New request
 master.menu.consumer = Consumer
 master.menu.consumer.offer.create = New offer
 
+
+# master.menu.worker ##########################################################
+
+master.menu.worker = Worker
+master.menu.worker.application.list = Applications
+
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Account
