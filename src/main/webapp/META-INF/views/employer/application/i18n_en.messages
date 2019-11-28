@@ -1,0 +1,23 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not request any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.employer.application.list.label.reference = Reference
+authenticated.employer.application.list.label.status = Status
+authenticated.employer.application.list.label.creationMoment = Creation Moment
+authenticated.employer.application.list.label.job = Job
+
+authenticated.employer.application.form.label.reference = Reference
+authenticated.employer.application.form.label.status = Status
+authenticated.employer.application.form.label.statement = Statement
+authenticated.employer.application.form.label.creationMoment = Creation Moment
+authenticated.employer.application.form.label.skills = Skills
+authenticated.employer.application.form.label.qualifications = Qualifications
+authenticated.employer.application.form.label.job = Job
+authenticated.employer.application.form.button.return = Return
