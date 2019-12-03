@@ -53,13 +53,14 @@ master.menu.authenticated.announcement.list = Ver anuncios
 master.menu.authenticated.records = Informes
 master.menu.authenticated.company-record.list = Ver informes de compañía
 master.menu.authenticated.investor-record.list = Ver de informes de inversor
-master.menu.authenticated.requests = Solicitudes
-master.menu.authenticated.request.list = Ver solicitudes
+master.menu.authenticated.requests = Peticiones
+master.menu.authenticated.request.list = Ver peticiones
 master.menu.authenticated.offers = Ofertas
 master.menu.authenticated.offer.list = Ver ofertas
 master.menu.authenticated.challenges = Desafíos
 master.menu.authenticated.challenge.list = Ver desafíos
 master.menu.authenticated.thread.list = Ver hilo de mensajes
+master.menu.authenticated.job.list = Ver empleos
 
 # master.menu.administrator ###################################################
 
@@ -75,12 +76,23 @@ master.menu.administrator.company-record.create = Nuevo informe de compañía
 # master.menu.provider ########################################################
 
 master.menu.provider = Proveedor
-master.menu.provider.request.create = Nueva solicitud
+master.menu.provider.request.create = Nueva petición
 
 # master.menu.consumer ##########################################################
 
 master.menu.consumer = Consumidor
 master.menu.consumer.offer.create = Nueva oferta
+
+# master.menu.worker ##########################################################
+
+master.menu.worker = Trabajador
+master.menu.worker.application.list = Ver solicitudes
+
+# master.menu.employer ########################################################
+
+master.menu.employer = Empleador
+master.menu.employer.job.list = Ver empleos
+master.menu.employer.application.list = Aplicaciones hechas a mis trabajos
 
 # master.menu.user-account ####################################################
 

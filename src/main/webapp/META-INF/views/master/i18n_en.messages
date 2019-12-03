@@ -60,6 +60,7 @@ master.menu.authenticated.offer.list = List offers
 master.menu.authenticated.challenges = Challenges
 master.menu.authenticated.challenge.list = List challenges
 master.menu.authenticated.thread.list = List threads
+master.menu.authenticated.job.list = List jobs
 
 # master.menu.administrator ###################################################
 
@@ -82,6 +83,17 @@ master.menu.provider.request.create = New request
 
 master.menu.consumer = Consumer
 master.menu.consumer.offer.create = New offer
+
+# master.menu.worker ##########################################################
+
+master.menu.worker = Worker
+master.menu.worker.application.list = Applications
+
+# master.menu.employer ########################################################
+
+master.menu.employer = Employer
+master.menu.employer.job.list = List jobs
+master.menu.employer.application.list = Applications made to my jobs
 
 # master.menu.user-account ####################################################
 
