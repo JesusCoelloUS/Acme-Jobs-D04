@@ -16,12 +16,14 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form readonly="true">
-	<acme:form-textbox code="authenticated.worker.application.form.label.reference" path="reference"/>
-	<acme:form-textbox code="authenticated.worker.application.form.label.status" path="status"/>
-	<acme:form-textarea code="authenticated.worker.application.form.label.statement" path="statement"/>
-	<acme:form-moment code="authenticated.worker.application.form.label.creationMoment" path="creationMoment"/>
-	<acme:form-textarea code="authenticated.worker.application.form.label.skills" path="skills"/>
-	<acme:form-textarea code="authenticated.worker.application.form.label.qualifications" path="qualifications"/>
+	<acme:form-textbox code="worker.application.form.label.reference" path="reference"/>
+	<acme:form-textbox code="worker.application.form.label.status" path="status"/>
+	<acme:form-textarea code="worker.application.form.label.statement" path="statement"/>
+	<acme:form-moment code="worker.application.form.label.creationMoment" path="creationMoment"/>
+	<acme:form-textarea code="worker.application.form.label.skills" path="skills"/>
+	<acme:form-textarea code="worker.application.form.label.qualifications" path="qualifications"/>
+	<acme:form-textbox code="worker.application.form.label.job" path="jobreference"/>
 	
-	<acme:form-return code="authenticated.worker.application.form.button.return"/>
+	<acme:button code="worker.application.form.button.job" action="/acme-jobs/worker/job/show?id=${jobId }"/>
+	<acme:form-return code="worker.application.form.button.return"/>
 </acme:form>

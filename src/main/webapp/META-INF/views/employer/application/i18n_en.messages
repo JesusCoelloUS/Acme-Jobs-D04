@@ -8,16 +8,17 @@
 # purposes.  The copyright owner does not request any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-authenticated.employer.application.list.label.reference = Reference
-authenticated.employer.application.list.label.status = Status
-authenticated.employer.application.list.label.creationMoment = Creation Moment
-authenticated.employer.application.list.label.job = Job
+employer.application.list.label.reference = Reference
+employer.application.list.label.status = Status
+employer.application.list.label.creationMoment = Creation Moment
+employer.application.list.label.job = Job
 
-authenticated.employer.application.form.label.reference = Reference
-authenticated.employer.application.form.label.status = Status
-authenticated.employer.application.form.label.statement = Statement
-authenticated.employer.application.form.label.creationMoment = Creation Moment
-authenticated.employer.application.form.label.skills = Skills
-authenticated.employer.application.form.label.qualifications = Qualifications
-authenticated.employer.application.form.label.job = Job
-authenticated.employer.application.form.button.return = Return
+employer.application.form.label.reference = Reference
+employer.application.form.label.status = Status
+employer.application.form.label.statement = Statement
+employer.application.form.label.creationMoment = Creation Moment
+employer.application.form.label.skills = Skills
+employer.application.form.label.qualifications = Qualifications
+employer.application.form.label.job = Job
+employer.application.form.button.job = Job
+employer.application.form.button.return = Return
