@@ -1,4 +1,4 @@
-# i18n_en.messages
+﻿# i18n_en.messages
 #
 # Copyright (c) 2019 Rafael Corchuelo.
 #
@@ -59,6 +59,7 @@ master.menu.authenticated.offers = Offers
 master.menu.authenticated.offer.list = List offers
 master.menu.authenticated.challenges = Challenges
 master.menu.authenticated.challenge.list = List challenges
+master.menu.authenticated.thread.list = List threads
 
 # master.menu.administrator ###################################################
 
