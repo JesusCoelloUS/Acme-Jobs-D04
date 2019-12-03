@@ -19,8 +19,7 @@
 <acme:form>
 	<acme:form-textbox code="authenticated.thread.form.label.title" path="title"/>
 	<acme:form-moment code="authenticated.thread.form.label.moment" path="moment"/>
-		
+
+	<acme:button code="authenticated.thread.form.button.messages" action="/acme-jobs/authenticated/thread-message/list?id=${id}"/>	
   	<acme:form-return code="authenticated.thread.form.button.return"/>
 </acme:form>
-
-<input type="button" value="<spring:message code="authenticated.thread.form.button.messages"/>" onclick="javascript:window.location.replace('/acme-jobs/authenticated/thread-message/list?id=${id}')">
