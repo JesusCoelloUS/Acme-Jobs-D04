@@ -26,5 +26,6 @@
 	<acme:form-url code="authenticated.job.form.label.moreInfo" path="moreInfo"/>
 	
 	<acme:button code="authenticated.job.form.button.duties" action="/acme-jobs/authenticated/duty/list?id=${id}"/>
+	<acme:button code="authenticated.job.form.button.auditRecords" action="/acme-jobs/authenticated/audit-record/list?id=${id}"/>
   	<acme:form-return code="authenticated.job.form.button.return"/>
 </acme:form>

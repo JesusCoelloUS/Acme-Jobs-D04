@@ -18,3 +18,4 @@ worker.job.form.label.moreInfo = More info
 worker.job.form.label.description = Description
 worker.job.form.button.return = Return
 worker.job.form.button.duties = Duties
+worker.job.form.button.auditRecords = Audit records

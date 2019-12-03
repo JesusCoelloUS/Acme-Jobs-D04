@@ -22,3 +22,4 @@ auditor.job.form.label.moreInfo = More info
 auditor.job.form.label.description = Description
 auditor.job.form.button.return = Return
 auditor.job.form.button.duties = Duties
+auditor.job.form.button.auditRecords = Audit records

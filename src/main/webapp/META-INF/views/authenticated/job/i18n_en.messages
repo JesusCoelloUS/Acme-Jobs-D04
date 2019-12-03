@@ -22,3 +22,4 @@ authenticated.job.form.label.moreInfo = More info
 authenticated.job.form.label.description = Description
 authenticated.job.form.button.return = Return
 authenticated.job.form.button.duties = Duties
+authenticated.job.form.button.auditRecords = Audit records

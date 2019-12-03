@@ -17,3 +17,4 @@ worker.job.form.label.moreInfo = Más información
 worker.job.form.label.description = Descripción
 worker.job.form.button.return = Volver
 worker.job.form.button.duties = Deberes
+worker.job.form.button.auditRecords = Registros de auditor
