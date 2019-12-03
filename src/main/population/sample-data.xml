@@ -55,16 +55,6 @@
 	
 	<bean id="employer1Authenticated" class="acme.framework.entities.Authenticated">
 		<property name="userAccount" ref="employer1UserAccount"/>
-		<!-- <property name="threadsOwned">
-			<list>
-				<ref bean="thread1employer1"/>
-			</list>
-		</property>
-		<property name="threadsInvolved">
-			<list>
-				
-			</list>
-		</property> -->
 	</bean>
 	
 	<bean id="thread1employer1" class="acme.entities.threads.Thread">
@@ -123,16 +113,6 @@
 	
 	<bean id="worker1Authenticated" class="acme.framework.entities.Authenticated">
 		<property name="userAccount" ref="worker1UserAccount"/>
-		<!-- <property name="threadsOwned">
-			<list>
-				<ref bean="thread1worker1"/>
-			</list>
-		</property>
-		<property name="threadsInvolved">
-			<list>
-				
-			</list>
-		</property> -->
 	</bean>
 	
 	<bean id="thread1worker1" class="acme.entities.threads.Thread">
@@ -190,16 +170,6 @@
 	
 	<bean id="auditor1Authenticated" class="acme.framework.entities.Authenticated">
 		<property name="userAccount" ref="auditor1UserAccount"/>
-		<!-- <property name="threadsOwned">
-			<list>
-				<ref bean="thread1auditor1"/>
-			</list>
-		</property>
-		<property name="threadsInvolved">
-			<list>
-				
-			</list>
-		</property> -->
 	</bean>
 	
 	<bean id="thread1auditor1" class="acme.entities.threads.Thread">
@@ -304,7 +274,7 @@
 		<property name="ticker" value="Rertc-45678"/>
 		<property name="title" value="This is the title of the request"/>
 		<property name="creationMoment" value="2019/10/12 16:00"/>
-		<property name="deadline" value="2019/12/11 23:59"/>
+		<property name="deadline" value="2020/12/11 23:59"/>
 		<property name="text" value="Here we are describing this request"/>
 		<property name="reward" value="500"/>
 	</bean>
@@ -427,7 +397,7 @@
 	
 	<bean id="challenge03" class="acme.entities.challenges.Challenge">
 		<property name="title" value="Challenge03's title"/>
-		<property name="deadline" value="2019/12/19 00:00"/>
+		<property name="deadline" value="2020/12/19 00:00"/>
 		<property name="description" value="This is the description"/>
 		<property name="goldReward" value="100"/>
 		<property name="silverReward" value="75"/>

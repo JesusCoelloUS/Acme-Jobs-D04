@@ -32,10 +32,4 @@ public class Authenticated extends UserRole {
 
 	// Relationships ----------------------------------------------------------
 
-	//	@OneToMany
-	//	private Collection<Thread>	threadsOwned;
-	//
-	//	@ManyToMany
-	//	private Collection<Thread>	threadsInvolved;
-
 }

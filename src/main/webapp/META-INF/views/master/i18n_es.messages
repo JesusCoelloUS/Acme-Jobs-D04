@@ -94,6 +94,12 @@ master.menu.employer = Empleador
 master.menu.employer.job.list = Ver empleos
 master.menu.employer.application.list = Aplicaciones hechas a mis trabajos
 
+# master.menu.auditor
+
+master.menu.auditor = Auditor
+master.menu.auditor.job.list.mine = Ver mis empleos
+master.menu.auditor.job.list.others = Ver otros empleos
+
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Cuenta
