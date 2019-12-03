@@ -22,7 +22,6 @@
 	<acme:form-moment code="worker.application.form.label.creationMoment" path="creationMoment"/>
 	<acme:form-textarea code="worker.application.form.label.skills" path="skills"/>
 	<acme:form-textarea code="worker.application.form.label.qualifications" path="qualifications"/>
-	<acme:form-textbox code="worker.application.form.label.job" path="jobreference"/>
 	
 	<acme:button code="worker.application.form.button.job" action="/acme-jobs/worker/job/show?id=${jobId }"/>
 	<acme:form-return code="worker.application.form.button.return"/>

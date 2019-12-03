@@ -19,6 +19,5 @@ worker.application.form.label.statement = Declaración
 worker.application.form.label.creationMoment = Fecha de creación
 worker.application.form.label.skills = Habilidades
 worker.application.form.label.qualifications = Cualificaciones
-worker.application.form.label.job = Empleo
 worker.application.form.button.job = Empleo
 worker.application.form.button.return = Volver
