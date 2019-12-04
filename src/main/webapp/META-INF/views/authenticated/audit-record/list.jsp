@@ -22,3 +22,5 @@
 	<acme:list-column code="authenticated.audit-record.list.label.creationMoment" path="creationMoment" width="40%"/>
 	
 </acme:list>
+
+<acme:form-return code="authenticated.audit-record.form.button.return"/>

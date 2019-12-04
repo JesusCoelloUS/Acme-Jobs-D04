@@ -72,7 +72,7 @@ public class Job extends DomainEntity {
 	@OneToMany
 	private Collection<Duty>		duties;
 
-	@OneToMany
+	@OneToMany(mappedBy = "job")
 	private Collection<Application>	applications;
 
 }
