@@ -168,11 +168,6 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `job_application` (
-       `job_id` integer not null,
-        `applications_id` integer not null
-    ) engine=InnoDB;
-
     create table `job_duty` (
        `job_id` integer not null,
         `duties_id` integer not null
@@ -293,9 +288,6 @@
     alter table `job` 
        add constraint UK_7jmfdvs0b0jx7i33qxgv22h7b unique (`reference`);
 
-    alter table `job_application` 
-       add constraint UK_qan2q8s45olf4f10maqiwao51 unique (`applications_id`);
-
     alter table `job_duty` 
        add constraint UK_8l5irvacqjnfw08o1x5v1y97v unique (`duties_id`);
 
@@ -373,16 +365,6 @@
        add constraint `FKtr91uryf2mp5ehddqni6sy8qm` 
        foreign key (`employer_id`) 
        references `employer` (`id`);
-
-    alter table `job_application` 
-       add constraint `FKfp2h8978o9hejrn5hbe2pwcyf` 
-       foreign key (`applications_id`) 
-       references `application` (`id`);
-
-    alter table `job_application` 
-       add constraint `FK5tcniavarhbbxc7sl99x3au6o` 
-       foreign key (`job_id`) 
-       references `job` (`id`);
 
     alter table `job_duty` 
        add constraint `FK9uwg2js056tp1m971wy3xesua` 

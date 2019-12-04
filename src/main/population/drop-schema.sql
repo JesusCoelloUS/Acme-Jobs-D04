@@ -47,14 +47,6 @@
        drop 
        foreign key `FKtr91uryf2mp5ehddqni6sy8qm`;
 
-    alter table `job_application` 
-       drop 
-       foreign key `FKfp2h8978o9hejrn5hbe2pwcyf`;
-
-    alter table `job_application` 
-       drop 
-       foreign key `FK5tcniavarhbbxc7sl99x3au6o`;
-
     alter table `job_duty` 
        drop 
        foreign key `FK9uwg2js056tp1m971wy3xesua`;
@@ -130,8 +122,6 @@
     drop table if exists `investor_record`;
 
     drop table if exists `job`;
-
-    drop table if exists `job_application`;
 
     drop table if exists `job_duty`;
 
